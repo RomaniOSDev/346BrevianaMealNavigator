@@ -59,6 +59,7 @@
 		D0F1D624525D0F20A1A5347C /* CookbookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21DDCFBCBA01FBBCA7DE1F /* CookbookCard.swift */; };
 		D4D868E40F8C14D893E64A50 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796FD0F91BC04B1066902CC /* AppDataStore.swift */; };
 		DAEFE56A3889275D50ECB312 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B7F0555A84CD6D75190DA1B3 /* PrivacyInfo.xcprivacy */; };
+		DB486666DA6B74C97AAD5498 /* NotificationInteractionCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046CA129D67794788CBFCCC /* NotificationInteractionCallback.swift */; };
 		DCECCB1757B7720309547525 /* LeftoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACDEC1073CD36E818432A8 /* LeftoversView.swift */; };
 		E4367EBB38D9D278107D9420 /* KitchenStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE31F5CCE965EEFB8551C5F /* KitchenStatsView.swift */; };
 		E6B425DA61499694E4A69D7C /* KitchenGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573218C0397F959090CBD958 /* KitchenGuides.swift */; };
@@ -106,6 +107,7 @@
 		2BF050AC4006B26C2EC5FC35 /* MealBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBoardView.swift; sourceTree = "<group>"; };
 		2F5709E9DC79E9CF44CE682C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FF73354AC32F63B75D18F4C /* LoadingThemeColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingThemeColors.swift; sourceTree = "<group>"; };
+		3046CA129D67794788CBFCCC /* NotificationInteractionCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationInteractionCallback.swift; sourceTree = "<group>"; };
 		309F92A6306BA3D30056DAD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38ACDEC1073CD36E818432A8 /* LeftoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoversView.swift; sourceTree = "<group>"; };
 		3E2609D5154C39AF805A69DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				B971A29D3C91EBE05F08500E /* PushNotificationURLRouter.swift */,
 				D965F0705E4EB18DB91C92A0 /* UserAgentBuilder.swift */,
 				FB40B34428D288BF0C089F5C /* WebviewVC.swift */,
+				3046CA129D67794788CBFCCC /* NotificationInteractionCallback.swift */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -559,6 +562,7 @@
 				63E27B5FFF3ABACF8A7F4D54 /* PushNotificationURLRouter.swift in Sources */,
 				04E8ABC67FB50BCFAAB132A8 /* UserAgentBuilder.swift in Sources */,
 				2816EE67F52FE5A3F39F2D01 /* WebviewVC.swift in Sources */,
+				DB486666DA6B74C97AAD5498 /* NotificationInteractionCallback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +602,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -641,7 +645,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -792,7 +796,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -826,7 +830,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
